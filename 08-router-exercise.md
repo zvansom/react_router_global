@@ -54,9 +54,3 @@ _Fun Note:_ There's no reason you can't change the CSS, if you'd like! The CSS f
 Your solution should look something like as follows:
 
 ![Solution for Project](assets/router-solution.png)
-
-## Check yourself!
-
-**Once you have a solution:**
-
-You can check a sample [solution here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/tree/master/projects/project-04-router/solution-code/src).

@@ -16,11 +16,7 @@ be using these new features directly ourselves!
 
 Instead, we'll use a tool called **React Router**, which bundles everything together so we don't have to worry about it.
 
-For an intro to React Router, watch this video:
-<video width="640" height="480" controls="controls" type="video/mp4">
-<source src="https://embed-ssl.wistia.com/deliveries/86ed960457d30d4247b0f536884db45773925ba6.bin">
-Your browser does not support the video tag.
-</video>
+For an intro to React Router, watch [this video](https://generalassembly.wistia.com/medias/tep72w77ir)
 
 **React Router** is a third party library that makes it easy for us to route URLs - not to different pages, but by dynamically loading different components on the same page as the user navigates to different URLs. Once we
 define how the URLs are routed to the components, **React Router** will
