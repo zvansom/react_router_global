@@ -86,8 +86,8 @@ component into `App.js` just like we did with the `Home` component.
 You can put your own content to be rendered by each component if you'd like. Refer to these complete files in the finished repo to make sure you got
 everything correct:
 
-* [Procedures.js](https://git.generalassemb.ly/education-product/react-router-simple-dentist-site/blob/master/src/procedures.js)
-* [Contact.js](https://git.generalassemb.ly/education-product/react-router-simple-dentist-site/blob/master/src/contact.js)
+* [Procedures.js](../../../react-router-simple-dentist-site/blob/master/src/procedures.js)
+* [Contact.js](../../../react-router-simple-dentist-site/blob/master/src/contact.js)
 
 Now that we have our components made, there's nothing stopping us from importing multiple components into our App.js. So now, we have:
 
