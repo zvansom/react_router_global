@@ -1,12 +1,13 @@
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to React Router
 
-# Intro to React Router
 
-## Objectives
-* Review how websites use URLs to route content
-* Review what it means for a website to be a Single Page Application
-* Introduce React Router's main features: routing, components, history
+### Learning Objectives
+*After this code-along section, you will be able to:*
+* Describe React Router's main features: routing, components, history
 * Use React Router to map URLs to components
 * Use React Router to create links to different pages
+
+## React Router
 
 It's great that HTML5 introduced new browser history mechanics to make it easier
 for us as developers to build Single Page Applications, and it's important to know what's going on under the hood.

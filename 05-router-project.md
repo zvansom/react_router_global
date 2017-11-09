@@ -1,5 +1,6 @@
-# React Router Recap
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Router Recap and Exercise
 
+## Recap
 What have we learned so far?
 * Single Page Applications have specific URLs that are routed to display
   different content.
@@ -10,7 +11,7 @@ What have we learned so far?
 
 Now let's put that to the test!
 
-# You Do: Implement Router #
+## You Do: Implement Router
 
 Let's go back to our blog project.
 

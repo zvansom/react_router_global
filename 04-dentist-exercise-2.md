@@ -1,4 +1,4 @@
-# Displaying Pages Individually
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Displaying Pages Individually
 
 Try manually deleting two of the three components so only one component is left
 on the page at a time. You should see your webpage update with just that
