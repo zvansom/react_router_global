@@ -13,9 +13,9 @@ Now let's put that to the test!
 
 ## You Do: Implement Router
 
-Let's go back to our blog project.
+Let's continue our blog project.
 
-You've been told your blog needs to have five pages:
+Your blog needs to have five pages:
 - Homepage
 - Main blog
 - Favorite movie
