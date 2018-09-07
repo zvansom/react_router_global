@@ -1,42 +1,39 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
   Link,
 } from 'react-router-dom';
-import Home from './Home';
-import Projects from './Projects';
+import './App.css';
 import About from './About';
+import Blog from './Blog';
+import Food from './Food';
+import Home from './Home';
+import Movie from './Movie';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <Router>
-          <div>
-            <nav>
-              <Link to="/">Home</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/about">About Me</Link>
-            </nav>
-            <Route exact path="/" component={Home} />
-            <Route path="/projects" component={Projects} />
-            <Route
-path="/about"
-component={
-              () => (<About name="Zach" />) }
-            />
-          </div>
-        </Router>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <div className="App">
+      <header className="App-header">
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/about">About Me</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/food">Food</Link>
+          <Link to="/movie">Movie</Link>
+        </nav>
+      </header>
+      <Route exact path="/" component={Home} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/food" component={Food} />
+      <Route path="/movie" component={Movie} />
+      <Route
+        path="/about"
+        component={
+            () => (<About name="Zach" />)}
+      />
+    </div>
+  </Router>
+);
 
 export default App;
